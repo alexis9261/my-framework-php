@@ -1,0 +1,22 @@
+{
+    "name": "alexis9261/php-framework-composer",
+    "description": "Proyecto correspondiente al curso de Introduccion a los Frameworks con PHP - Platzi",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexis Montilla",
+            "email": "alexisamm9261@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
